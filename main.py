@@ -1,7 +1,11 @@
+# comment
+hello
+
 from csv import reader
 
 
-flag = 0
+
+flag = 200
 output = open('result.txt', 'w')
 search = input('Search for: ')
 with open('civic.csv', 'r', encoding='windows-1251') as csvfile:
